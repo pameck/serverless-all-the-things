@@ -54,6 +54,8 @@ functions:
          method: get
   httpsinvoker:
     handler: https-invoker.handler
+  testharness:
+    handler: test-harness.handler
 #      - s3: ${env:BUCKET}
 #      - schedule: rate(10 minutes)
 #      - sns: greeter-topic
