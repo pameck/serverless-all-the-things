@@ -1,5 +1,7 @@
 'use strict';
 
+const https = require('https');
+
 let sampleTestDataForTests = {
   "options": {
     "host": "<A HOST>", // something like ehrjwerhk.sadasd.us-east-1.amazonaws.com
