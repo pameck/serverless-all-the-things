@@ -52,6 +52,8 @@ functions:
      - http:
          path: greetings/hello
          method: get
+  httpsinvoker:
+    handler: https-invoker.handler
 #      - s3: ${env:BUCKET}
 #      - schedule: rate(10 minutes)
 #      - sns: greeter-topic
