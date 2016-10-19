@@ -46,8 +46,8 @@ provider:
 #  artifact: my-service-code.zip
 
 functions:
-  hello:
-    handler: handler.hello
+  businesslogiclambda:
+    handler: business-logic-lambda.handler
     events:
      - http:
          path: greetings/hello
