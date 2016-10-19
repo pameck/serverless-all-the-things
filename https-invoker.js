@@ -1,8 +1,10 @@
+'use strict';
+
 let sampleTestDataForTests = {
-  options: {
-    host: "<A HOST>", // something like ehrjwerhk.sadasd.us-east-1.amazonaws.com
-    path: "/dev/greetings/hello?param1=1&param2=2",
-    method: "GET"
+  "options": {
+    "host": "<A HOST>", // something like ehrjwerhk.sadasd.us-east-1.amazonaws.com
+    "path": "/dev/greetings/hello?param1=1&param2=2",
+    "method": "GET"
   }
 };
 
